@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>START</title>
+</head>
+
+<style>
+body {
+  background-color: #F7F7F7;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: bold;
+    color: #8ea03d;
+}
+
+.menuButton {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+  text-align: left;
+  left: 5px;
+  height: 20px;
+  text-decoration: none;
+  font-family: SFNS Display;
+  color: #8ea03d;
+}
+
+.menuButton:hover {
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+  background-color:#b3c65d;
+  color: #fffcf3;
+}
+
+table {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    table-layout: fixed;
+    width: 75%;
+}
+
+th{
+  text-align: left;
+  font-family: Grand Hotel;
+  font-size: 200%;
+}
+
+.titles {
+  transition-property: color, text-shadow;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  text-decoration: none;
+  color: #b94d5a;
+}
+
+.titles:hover {
+  transition-property: color, text-shadow;
+  transition-duration: 0.5s, 0.5s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  color:#fe7d8f;
+  text-shadow: 0 0 4px #ffd5de;
+
+}
+
+div.tyme{
+  margin-top: 40px;
+  margin-left: 180px;
+  font-size: 300%;
+  line-height: 70%;
+  font-family: SFNS Display;
+  font-weight: bold;
+  color: #fe7d8f;
+  text-shadow: 0 0 5px white;
+}
+div.dayte{
+  margin-left: 180px;
+  margin-bottom: 20px;
+  font-size: 210%;
+  line-height: 70%;
+  font-family: SFNS Display;
+  font-weight: black;
+  color: #b3c65d;
+  text-shadow: 0 0 5px white;
+}
+
+</style>
+<body>
+
+<div class="tyme">
+<script type="text/javascript">
+    var currentDate = new Date()
+    var hrs = currentDate.getHours()
+    var mins = currentDate.getMinutes()
+    if(mins < 10)
+      mins = "0"+mins;
+   document.write("<b>" + hrs + ":" + mins + "</b>")
+</script> </div>
+   <br>
+   <div class="dayte">
+<script type="text/javascript">
+    var currentDate2 = new Date()
+    var dayyte = currentDate2.getDate()
+    var yeer = currentDate2.getFullYear()
+    var monthNum = currentDate2.getMonth() + 1;
+    var month = "Month";
+    if(monthNum == 11)
+      month = "November";
+    else
+      month = "December";
+   document.write("<b>" + dayyte + " " + month + " " + yeer + "</b>")
+</script>
+</div>
+
+<table>
+  <tr>
+    <th><a class="titles" href="#">Social</a></th>
+    <th><a class="titles" href="#">Reddit</a></th>
+    <th><a class="titles" href="#">4chan</a></th>
+    <th> </th>
+    <th> </th>
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="https://www.facebook.com/">facebook</a></td>
+    <td><a class="menuButton" href="https://www.reddit.com/">reddit</a><br></td>		
+    <td><a class="menuButton" href="http://boards.4chan.org/g/">technology</a></td>   
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="http://www.youtube.com/">youtube</a></td>
+    <td><a class="menuButton" href="https://www.reddit.com/r/unixporn">/r/unixporn</a></td>		
+    <td><a class="menuButton" href="http://boards.4chan.org/w/">anime/wallpapers</a></td>
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="http://www.tumblr.com/">tumblr</a></td>
+    <td><a class="menuButton" href="https://www.reddit.com/r/math">/r/math</a></td>
+    <td><a class="menuButton" href="http://boards.4chan.org/c/">cute</a></td>		
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="http://www.twitter.com/">twitter</a></td>
+    <td><a class="menuButton" href="https://www.reddit.com/r/askreddit">/r/askreddit</td>
+    <td><a class="menuButton" href="http://boards.4chan.org/r9k/">ROBOT9001</a></td>
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="https://en.wikipedia.org/wiki/Social_media">filler</a></td>
+    <td><a class="menuButton" href="https://www.reddit.com/r/space">/r/space</a></td>
+    <td><a class="menuButton" href="http://boards.4chan.org/x/">paranormal</a></td>
+    </tr>
+</table>
+
+<div style="margin-left: 180px">
+  <img src="https://raw.githubusercontent.com/jastronaut/startpages/master/pictures/divider_stars.gif"> <img src="https://raw.githubusercontent.com/jastronaut/startpages/master/pictures/computer.gif"> <img src="https://raw.githubusercontent.com/jastronaut/startpages/master/pictures/divider_stars.gif"> <img src="https://raw.githubusercontent.com/jastronaut/startpages/master/pictures/computer.gif"> <img src="https://raw.githubusercontent.com/jastronaut/startpages/master/pictures/divider_stars.gif">
+</div>
+
+<table>
+  <tr>
+    <th><a class="titles" href="#">Programming</a></th>
+    <th><a class="titles" href="#">Misc</a></th>
+    <th> </th>
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="https://www.reddit.com/r/dailyprogrammer">/r/dailyprogrammer</a></td>
+    <td><a class="menuButton" href="http://drive.google.com/">google drive</a></td>
+  <tr>
+   <td><a class="menuButton" href="https://reddit.com/r/learnprogramming">/r/learnprogramming</a></td>
+    <td><a class="menuButton" href="https://news.ycombinator.com/">hacker news</a></td>
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="https://projecteuler.net/">project euler</a></td>
+    <td><a class="menuButton" href="http://techcrunch.com/">techchrunch</a></td>
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="https://en.wikibooks.org/wiki/X86_Assembly">x86 assembly</a></td>
+    <td><a class="menuButton" href="http://lifehacker.com/">lifehacker</a></td>
+  </tr>
+  <tr>
+    <td><a class="menuButton" href="www.codeabbey.com">code abbey</a></td>
+    <td><a class="menuButton" href="https://www.clickhole.com">clickhole</a></td>
+    </tr>
+</table>
+
+<div style="position:fixed;bottom:0;right:0;z-index:-1"><img src="https://raw.githubusercontent.com/jastronaut/startpages/master/pictures/sakura_miku.png"> </div>
+</body>
+
+<!-- JAVASCRIPT BY Scott Schiller - http://schillmania.com -->
+<script type="text/javascript" src="https://raw.githubusercontent.com/jastronaut/startpages/master/other%20resources/snow.js"></script>
+
+<script type="text/javascript">
+snowStorm.snowColor = '#FBCBC9';
+snowStorm.flakesMaxActive = 30; 
+</script>
+
+</html>
