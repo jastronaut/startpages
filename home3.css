@@ -1,0 +1,63 @@
+/*
+	css for home3.html
+	the html commenting style sucks. thank god for c-style comments.
+*/
+
+body{
+	background-color: #404552;
+}
+
+main{
+	
+	text-align: left;
+	display: block;
+	position: absolute;
+	top: 20%;
+	left: 18%;
+}
+
+h1{
+	font-style: bold;
+	color: #FFFFFF;
+	line-height: 10px;
+}
+
+h2{
+	color: #B3BDCB;
+	line-height: 10px;
+}
+
+ul{
+	display: inline-block;
+	line-height: 0;	
+}
+
+.cat{
+	color: #5294E2;
+	font-weight: bold;
+	font-size: 110%;	
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+a:visited{
+	color: white;
+}
+
+.link {
+  position: relative;
+  transition-property: background-color, color, font-size;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  background-color:#fffaf3;
+  color: #5294E2;
+  font-size: 110%;
+}
