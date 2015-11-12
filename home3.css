@@ -41,6 +41,7 @@ ul{
 li{
 	list-style: none;
 	display: inline-block;
+	color: #B3BDCB;
 }
 
 a:visited{
