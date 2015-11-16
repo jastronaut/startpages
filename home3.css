@@ -4,7 +4,7 @@
 */
 
 body{
-	background-color: #404552;
+	background-color: #2B303B;
 }
 
 main{
@@ -23,7 +23,7 @@ h1{
 }
 
 h2{
-	color: #B3BDCB;
+	color: #8FA1B3;
 	line-height: 10px;
 }
 
@@ -33,7 +33,7 @@ ul{
 }
 
 .cat{
-	color: #5294E2;
+	color: #A3BE8C;
 	font-weight: bold;
 	font-size: 110%;	
 }
@@ -41,7 +41,7 @@ ul{
 li{
 	list-style: none;
 	display: inline-block;
-	color: #B3BDCB;
+	color: #C0C5CE;
 }
 
 a:visited{
