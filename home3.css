@@ -8,7 +8,6 @@ body{
 }
 
 main{
-	
 	text-align: left;
 	display: block;
 	position: absolute;
@@ -29,13 +28,13 @@ h2{
 
 ul{
 	display: inline-block;
-	line-height: 0;	
+	line-height: 0;
 }
 
 .cat{
 	color: #A3BE8C;
 	font-weight: bold;
-	font-size: 110%;	
+	font-size: 110%;
 }
 
 li{
