@@ -1,10 +1,12 @@
 /*
-	css for home3.html
+	css for home3.html by jastronaut
 	the html commenting style sucks. thank god for c-style comments.
+	keeping this here: old bullet for the lists &#9002;
 */
 
 body{
 	background-color: #2B303B;
+	line-height: 10px;
 }
 
 main{
@@ -19,6 +21,7 @@ h1{
 	font-style: bold;
 	color: #FFFFFF;
 	line-height: 10px;
+	font-family: "Noto Sans", "Noto Sans CJK JP", "Font Awesome" sans-serif;
 }
 
 h2{
