@@ -1,11 +1,11 @@
 /*
-	css for home3.html by jastronaut
-	the html commenting style sucks. thank god for c-style comments.
-	keeping this here: old bullet for the lists &#9002;
-*/
+css for home3.html by jastronaut
+the html commenting style sucks. thank god for c-style comments.
+keeping this here: old bullet for the lists &#9002;
+ */
 
 body{
-	background-color: #2B303B;
+	background-color: #2d2d2d;
 	line-height: 10px;
 }
 
@@ -17,14 +17,14 @@ main{
 	left: 18%;
 }
 
-h1{
+#greeting {
 	font-style: bold;
 	color: #FFFFFF;
 	line-height: 10px;
 	font-family: "Noto Sans", "Noto Sans CJK JP", "Font Awesome" sans-serif;
 }
 
-h2{
+#dates {
 	color: #8FA1B3;
 	line-height: 10px;
 }
@@ -51,16 +51,16 @@ a:visited{
 }
 
 .link {
-  position: relative;
-  transition-property: background-color, color, font-size;
-  transition-duration: 0.25s;
-  transition-timing-function: ease-in-out;
-  text-decoration: none;
-  color: white;
+	position: relative;
+	transition-property: background-color, color, font-size;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+	text-decoration: none;
+	color: white;
 }
 
 .link:hover {
-  background-color:#fffaf3;
-  color: #5294E2;
-  font-size: 110%;
+	background-color:#fffaf3;
+	color: #5294E2;
+	font-size: 110%;
 }
