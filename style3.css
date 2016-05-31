@@ -50,7 +50,7 @@ a:visited{
 	color: white;
 }
 
-.link {
+a {
 	position: relative;
 	transition-property: background-color, color, font-size;
 	transition-duration: 0.25s;
@@ -59,7 +59,7 @@ a:visited{
 	color: white;
 }
 
-.link:hover {
+a:hover {
 	background-color:#fffaf3;
 	color: #5294E2;
 	font-size: 110%;
